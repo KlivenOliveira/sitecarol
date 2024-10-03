@@ -1,0 +1,96 @@
+<!--  Hello <b>World</b>  -->
+<!doctype html> 
+<html>
+    <head>
+        <!--  configura info que em sua grande maioria não aparece diretamente para o usuário  -->
+          <title>Compra</title> <!--  Título da aba  -->
+          <meta charset="utf-8"> <!--  Tratamento para exibição de acentos na página  -->
+    </head>
+    <body>
+        <table border="0" width="900" align="center">
+            <tr>
+              <td align="center">
+                <!-- <img src="imagens/STARFLEET.jpg" width="160" height = "140" style="float:left;margin-left:5px"> --> <!-- float: imagem futua no canto que mandar. Margin é para definir a distancia da imagem da borda da tela. -->
+                <img src="imagens/STARFLEET.jpg" width="160" height = "140">
+              </td>
+              <td align="center">
+                <a href="principal.html">Home</a> |
+                <a href="ussenterprise.html">Nossa Frota</a> |
+                <a href="projeto.html">Passageiros</a> |
+                <a href="acomodacao.html">Acomodações</a>
+              </td>
+            </tr>
+          </table>
+
+          <table border="0" width="900" align="center">
+            <tr>
+              <td align="center">
+                <h2>Comprar Passagem</h2>
+              </td>
+            </tr>
+          </table>
+          <table border="0" width="900" align="center">
+            <tr>
+              <td align="center">
+                <form>
+                <!--<form action=""processa.php"> para enviar os dados do cadastro para uma outra página-->
+                    Nome:
+                    <input type="text" name="Nome"><br><br>
+                    Documento de identificação:
+                    <input type="text" name="Docto"><br><br>
+                    Data de Nascimento:
+                    <input type="date" name="DtNascto"><br><br>
+                    E-mail:
+                    <input type="text" name="Email"><br><br>
+                    Endereço:
+                    <input type="text" name="End"><br><br>
+                    Complemento:
+                    <input type="text" name="Compl"><br><br>
+                    CEP:
+                    <input type="text" name="CEP"><br><br>
+                    Planeta:
+                    <input type="text" name="Planeta"><br><br>
+                    Destino:
+                    <input type="radio" name="destino">Alfa 117
+                    <input type="radio" name="destino">Annari
+                    <input type="radio" name="destino">Aschelan 5
+                    <input type="radio" name="destino">Vulcan
+                    <input type="radio" name="destino">Alderaan
+                    <input type="radio" name="destino">Coruscant
+                    <input type="radio" name="destino">Naboo
+                    <input type="radio" name="destino">Tatooine<br><br>
+
+                    Data/Horário:
+                    <input type="radio" name="horario">Seg 09:00
+                    <input type="radio" name="horario">Ter 12:00
+                    <input type="radio" name="horario">Qua 20:00
+                    <input type="radio" name="horario">Qui 15:00
+                    <input type="radio" name="horario">Sex 08:00
+                    <input type="radio" name="horario">Sab 10:00<br><br>
+                    Bagagens:
+                    <input type="checkbox" name="">Mala despachada
+                    <input type="checkbox" name="">Mala de mão
+                    <input type="checkbox" name="">Mochila
+                    <input type="checkbox" name="">Nenhuma bagagem<br><br>
+                    
+                    Opção de acento:
+                    <select name="classe">
+                        <option value="economica">Econômica</option>
+                        <option value="economicapriv">Econômica Privativa</option>
+                        <option value="familia">Familia</option>
+                        <option value="executiva">Executiva</option>
+                        <option value="luxocasal">Luxo Casal</option>
+                        <option value="luxofamilia">Luxo Familia</option>
+                    </select>
+                    <br><br>
+                    Observações: <br>
+                    <textarea></textarea>
+                    <br><br>
+                    <input type="button" value="Prosseguir">
+                    <!--<input type="submit" value="Finalizar"> para dar submit no cadastro-->
+                </form>
+              </td>
+            </tr>
+          </table>
+    </body>
+</html>
